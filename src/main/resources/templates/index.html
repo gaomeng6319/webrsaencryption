@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <script type="text/javascript">
+      checkLogin=function () {
+          var userName=document.getElementById("userName").value;
+          var userPassword=document.getElementById("userPassword").value;
+          alert(userName+" "+userPassword)
+        }
+    </script>
+</head>
+<body>
+<div>
+    <h3>登录使用RSA加密数据发送请求</h3>
+    <div><span>用户名</span><input type="text" id="userName"></div>
+    <div><span>密  码</span><input type="password" id="userPassword"></div>
+    <div><button onclick="checkLogin()">登录</button></div>
+</div>
+</body>
+</html>
