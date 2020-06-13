@@ -39,6 +39,15 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/lib/bcprov-jdk15on-1.59.jar</systemPath>
+        </dependency>
+
     </dependencies>
 
     <build>
